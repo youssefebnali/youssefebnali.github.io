@@ -7,8 +7,7 @@
 
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-
-<!-- Font Awesome pour icônes -->
+<!-- Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <style>
@@ -21,7 +20,6 @@ h1 { font-size:3rem; }
 h2 { font-size:2rem; border-left:4px solid #38bdf8; padding-left:15px; margin-bottom:20px; }
 h3 { margin-bottom:10px; }
 ul { margin-left:20px; }
-
 header { text-align:center; padding:80px 20px; background:radial-gradient(circle at top, #0f172a, #020617); }
 header p { color:#94a3b8; font-size:1.2rem; margin:10px 0; }
 .btn { display:inline-block; padding:12px 24px; background:#38bdf8; color:#020617; border-radius:8px; font-weight:600; margin:5px; transition:.3s; }
@@ -39,11 +37,7 @@ section { padding:60px 20px; max-width:1200px; margin:auto; }
 .timeline-item { position: relative; margin-bottom:40px; }
 .timeline-item::before { content: ''; position: absolute; left: -8px; top:0; width:16px; height:16px; background:#38bdf8; border-radius:50%; border:4px solid #020617; }
 
-iframe { width:100%; height:600px; border:none; border-radius:16px; margin-top:20px; }
-
-footer { text-align:center; padding:40px 20px; color:#94a3b8; font-size:0.9rem; border-top:1px solid #1e293b; }
-
-@media(max-width:768px){ header { padding:60px 10px; } h1 { font-size:2rem; } h2 { font-size:1.5rem; } iframe { height:400px; } }
+@media(max-width:768px){ header { padding:60px 10px; } h1 { font-size:2rem; } h2 { font-size:1.5rem; } }
 </style>
 </head>
 <body>
@@ -62,19 +56,19 @@ footer { text-align:center; padding:40px 20px; color:#94a3b8; font-size:0.9rem; 
     <div class="card">
       <h3>Réseau & Sécurité</h3>
       <ul>
-        <li>TCP/IP, DHCP, DNS, SMTP, SNMP, SSH, Wi-Fi, LAN/WAN, SDWAN, Proxy, Reverse Proxy</li>
+        <li>TCP/IP, DHCP, DNS, SMTP, SNMP, SSH, Wi-Fi, LAN/WAN, SD-WAN, Proxy, Reverse Proxy</li>
         <li>Switch: CISCO Catalyst/Nexus, Alcatel, TP-Link, Zyxel</li>
         <li>Firewall: Fortinet, Forcepoint, Cisco ASA, Juniper, Palo Alto, Mikrotik</li>
         <li>VPN: Cisco AnyConnect, FortiClient EMS, FortiClient</li>
-        <li>WIFI: CISCO, TP-Link, Ruckus, Ucopia</li>
+        <li>Wi-Fi: CISCO, TP-Link, Ruckus, Ucopia</li>
         <li>Load Balancing: BIG-IP F5 LTM/GTM</li>
-        <li>Outils de vulnérabilité: OpenVas, CyberWatch, Qualys</li>
+        <li>Outils vulnérabilité: OpenVas, CyberWatch, Qualys</li>
       </ul>
     </div>
     <div class="card">
       <h3>Supervision & Automatisation</h3>
       <ul>
-        <li>Supervision réseau: Nagios, Cacti, Grafana, OpenNMS, LibreNMS, Centreon</li>
+        <li>Supervision: Nagios, Cacti, Grafana, OpenNMS, LibreNMS, Centreon</li>
         <li>Scripting: PowerShell, Python</li>
         <li>Automatisation: Gitlab, Jenkins</li>
       </ul>
@@ -82,21 +76,57 @@ footer { text-align:center; padding:40px 20px; color:#94a3b8; font-size:0.9rem; 
     <div class="card">
       <h3>Domaine de Compétences</h3>
       <ul>
-        <li>Architecture & Configuration réseau</li>
-        <li>Administration & Supervision réseau</li>
+        <li>Architecture & configuration réseau</li>
+        <li>Administration & supervision réseau</li>
         <li>Filtrage et protection réseau</li>
-        <li>Analyse des vulnérabilités et sécurité avancée</li>
-        <li>Support Niveau 3 et gestion des infrastructures</li>
-        <li>Automatisation des processus & DevOps</li>
-        <li>Gestion des sauvegardes et continuité de service</li>
+        <li>Analyse des vulnérabilités</li>
+        <li>Support N3 et gestion infrastructures</li>
+        <li>Automatisation & DevOps</li>
+        <li>Gestion sauvegardes & continuité service</li>
       </ul>
     </div>
   </div>
 </section>
 
 <section>
-  <h2>📄 CV Intégré</h2>
-  <iframe src="YBA-INGENIEUR RESEAU ET SECURITE.pdf"></iframe>
+  <h2>🛠 Expériences Professionnelles</h2>
+  <div class="timeline">
+
+    <div class="timeline-item card">
+      <h3>Alcatel Submarine Networks — Depuis Juillet 2024</h3>
+      <p><strong>Ingénieur Cybersécurité</strong></p>
+      <ul>
+        <li>Administration Firewalls FortiGate, Forcepoint, Palo Alto</li>
+        <li>Gestion VPN & filtrage web</li>
+        <li>Supervision trafic réseau et protection données sensibles</li>
+        <li>Analyse incidents & amélioration architecture sécurité</li>
+        <li>Support N3 via JIRA</li>
+      </ul>
+    </div>
+
+    <div class="timeline-item card">
+      <h3>Bpifrance — Avril 2021 – Avril 2024</h3>
+      <p><strong>Ingénieur Réseau & Sécurité</strong></p>
+      <ul>
+        <li>Gestion équipements réseau et SD-WAN Fortinet</li>
+        <li>Administration proxys, firewalls et BIG-IP F5</li>
+        <li>Monitoring et automatisation (Netbox, LibreNMS, Grafana, Gitlab, Jenkins)</li>
+        <li>Support N3 et évolution architecture LAN/WAN</li>
+      </ul>
+    </div>
+
+    <div class="timeline-item card">
+      <h3>Orange Business Services — Nov 2019 – Mars 2021</h3>
+      <p><strong>Ingénieur Réseau & Sécurité</strong></p>
+      <ul>
+        <li>Configuration & supervision Fortinet, Cisco, VPN</li>
+        <li>Gestion serveurs DHCP/DNS</li>
+        <li>Supervision réseau via Nagios</li>
+        <li>Support N3 et haute disponibilité</li>
+      </ul>
+    </div>
+
+  </div>
 </section>
 
 <section>
@@ -106,7 +136,7 @@ footer { text-align:center; padding:40px 20px; color:#94a3b8; font-size:0.9rem; 
       <ul>
         <li>2016 : Master Professionnel en Ingénierie des Systèmes Informatiques</li>
         <li>2014 : Licence Appliquée en Réseaux Informatiques</li>
-        <li>Formations & Certifications : Cisco Ethical Hacker, BIG-IP F5, Fortinet NSE4/5/6, Azure Fundamentals, ITIL V4, Scrum, CEH</li>
+        <li>Certifications : Cisco Ethical Hacker, BIG-IP F5, Fortinet NSE4/5/6, Azure Fundamentals, ITIL V4, Scrum, CEH</li>
       </ul>
     </div>
   </div>
